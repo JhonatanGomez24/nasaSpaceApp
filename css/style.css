@@ -6,7 +6,7 @@ html,
 body {
   height: 100%;
   font-family: "Josefin Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; 
 }
 
 h1,
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 36px; 
 }
 
 h3 {
@@ -44,7 +44,9 @@ h5 {
 h6 {
   font-size: 16px;
 }
-
+span{
+  color: #ffffff;
+}
 p {
   font-size: 16px;
   font-family: "Josefin Sans", sans-serif;
@@ -69,7 +71,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 ul,
@@ -111,7 +113,7 @@ ol {
   bottom: 0;
   height: 5px;
   width: 70px;
-  background: #00bfe7;
+  background: #03e0fd;
   content: "";
 }
 
@@ -123,7 +125,7 @@ ol {
 
 .spad {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 100px; 
 }
 
 .text-white h1,
@@ -273,7 +275,7 @@ ol {
   top: 0;
   width: 100%;
   background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: none;
   z-index: 9;
 }
 
@@ -360,7 +362,7 @@ ol {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #00bfe7;
+  background:#00bfe7;
   content: "";
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
@@ -455,11 +457,11 @@ border-radius: 50%;
 .hero__item {
   height: 684px;
   padding-top: 255px; 
-  background-color: rgba(149, 245, 232, 0.535);
+  background-color: rgba(245, 149, 149, 0.535);
 }
 
 .hero__text span {
-  color: #044b44;
+  color: #fdfdfd;
   display: block;
   font-size: 15px;
   letter-spacing: 2px;
@@ -487,7 +489,7 @@ border-radius: 50%;
   opacity: 0;
   -webkit-transition: all, 0.5s;
   -o-transition: all, 0.5s;
-  transition: all, 0.5s;
+  transition: all, 0.5s; 
 }
 .hero__text .primary-btn {
   position: relative;
@@ -497,7 +499,12 @@ border-radius: 50%;
   -o-transition: all, 0.7s;
   transition: all, 0.7s;
 }
-
+/* .hero__text img{
+  margin-left:530px;
+  position: absolute; 
+  border-radius:40px;
+  margin-top:20px;
+} */
 /*---------------------
   Work
 -----------------------*/
@@ -607,7 +614,7 @@ border-radius: 50%;
 }
 
 .counter__item {
-  background: #1a083d;
+  background: #3d1d08;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
       transform: rotate(45deg);
@@ -764,10 +771,9 @@ border-radius: 50%;
   Latest
 -----------------------*/
 .latest {
-  background: #100028;
-  padding-bottom: 80px;
-}
-
+  background: #262525;
+  padding-bottom: 80px;  
+} 
 .blog__item.latest__item {
   margin-bottom: 0;
 }
@@ -863,7 +869,7 @@ border-radius: 50%;
   color: #ffffff;
   height: 40px;
   width: 40px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(235, 4, 4, 0.1);
   border-radius: 50%;
   line-height: 44px;
   text-align: center;
@@ -1183,24 +1189,23 @@ border-radius: 50%;
   Portfolio
 -----------------------*/
 .portfolio {
-  background: #100028;
+  background: #fafafa;
 }
-
 .portfolio__filter {
   text-align: center;
   margin-bottom: 40px;
 }
 .portfolio__filter li {
   list-style: none;
-  font-size: 16px;
-  color: #adadad;
+  font-size: 18px;
+  color:  #262525;
   margin-right: 5px;
   display: inline-block;
   cursor: pointer;
   padding: 6px 22px;
 }
 .portfolio__filter li.active {
-  border: 1px solid #00bfe7;
+  border: 1px solid #0acff7;
 }
 .portfolio__filter li:last-child {
   margin-right: 0;
@@ -1228,7 +1233,7 @@ border-radius: 50%;
 }
 .portfolio__item__video .play-btn {
   display: inline-block;
-  color: #ffffff;
+  color: #262525;
   font-size: 20px;
   height: 50px;
   width: 50px;
@@ -1242,7 +1247,7 @@ border-radius: 50%;
   text-align: center;
 }
 .portfolio__item__text h4 {
-  color: #ffffff;
+  color: #262525;
   display: inline-block;
   font-size: 22px;
   font-weight: 700;
@@ -1254,8 +1259,8 @@ border-radius: 50%;
   left: 0;
   bottom: 0;
   height: 1px;
-  width: 100%;
-  background: #333;
+  width: 100%; 
+  background:#0acff7;
   content: "";
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
@@ -1269,7 +1274,7 @@ border-radius: 50%;
   font-weight: 300;
   margin-right: 24px;
   position: relative;
-  color: #adadad;
+  color: #5e5252;
 }
 .portfolio__item__text ul li:after {
   position: absolute;
