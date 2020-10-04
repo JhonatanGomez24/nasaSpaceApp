@@ -278,7 +278,15 @@ ol {
   border-bottom: none;
   z-index: 9;
 }
-
+.name_empresa{
+  color:white;
+  text-decoration: none;  
+  position: absolute; 
+  top: 20px;
+  left:20px; 
+  font: bold;
+  font-family: unset;  
+}
 .header__logo {
   padding: 30px 0;
 }
