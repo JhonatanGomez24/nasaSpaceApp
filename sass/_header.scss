@@ -1,7 +1,7 @@
 /*---------------------
   Header
 -----------------------*/
-.header {
+.header { 
     position: absolute;
     left: 0;
     top: 0;
@@ -38,8 +38,7 @@
 
             &.active {
 
-                a {
-                    
+                a { 
                     &:after {
                         transform: scale(1);
                     }
@@ -48,8 +47,7 @@
 
             &:hover {
 
-                a {
-                    
+                a { 
                     &:after {
                         transform: scale(1);
                     }
