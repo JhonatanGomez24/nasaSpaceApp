@@ -787,7 +787,7 @@ border-radius: 50%;
 }
 .blog__item.latest__item:hover {
   border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
+  background: url(img/blog/blog-1.jpg);
   background-size: cover;
 }
 
@@ -853,7 +853,7 @@ border-radius: 50%;
   Footer
 -----------------------*/
 .footer {
-  background: #0a0119;
+  background:#000205;
 }
 
 .footer__top {
@@ -993,7 +993,7 @@ border-radius: 50%;
   color: #ffffff;
   font-size: 50px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 12px; 
 }
 
 .breadcrumb__links a {
@@ -1002,7 +1002,8 @@ border-radius: 50%;
   font-weight: 300;
   display: inline-block;
   margin-right: 32px;
-  position: relative;
+  position: relative; 
+  margin-left:720px;
 }
 .breadcrumb__links a:after {
   position: absolute;
@@ -1023,7 +1024,7 @@ border-radius: 50%;
   About
 -----------------------*/
 .about {
-  background: #100028;
+  background: #280100;
   padding-bottom: 150px;
 }
 
@@ -1341,11 +1342,11 @@ border-radius: 50%;
     Blog
 -----------------------*/
 .blog {
-  background: #100028;
+  background: #262525;
 }
 
 .blog__item {
-  border: 1px solid #222222;
+  border: 1px solid #ffffff;
   padding: 40px 48px 35px 30px;
   position: relative;
   z-index: 1;
@@ -1353,7 +1354,7 @@ border-radius: 50%;
 }
 .blog__item:hover {
   border: 1px solid transparent !important;
-  background: url(../img/blog/blog-2.jpg) no-repeat;
+  background: url(../img/blog/blog-1.webp) no-repeat;
   background-size: cover;
 }
 .blog__item:hover ul li {
@@ -1673,7 +1674,7 @@ border-radius: 50%;
   Contact Widget
 -----------------------*/
 .contact-widget {
-  background: #100028;
+  background: #ffffff;
   padding-bottom: 70px;
 }
 
@@ -1684,7 +1685,7 @@ border-radius: 50%;
 .contact__widget__item__icon {
   height: 70px;
   width: 70px;
-  border: 1px solid rgba(225, 225, 225, 0.5);
+  border: 1px solid rgba(36, 34, 34, 0.939);
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
@@ -1693,7 +1694,7 @@ border-radius: 50%;
 }
 .contact__widget__item__icon i {
   font-size: 30px;
-  color: #ffffff;
+  color: #4d4343;
 }
 
 .contact__widget__item__text {
@@ -1702,7 +1703,7 @@ border-radius: 50%;
 }
 .contact__widget__item__text h4 {
   font-size: 22px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -1714,7 +1715,7 @@ border-radius: 50%;
   Contact
 -----------------------*/
 .contact {
-  background: #100028;
+  background: #ffffff;
   padding-top: 0;
   overflow: hidden;
 }
@@ -1727,7 +1728,7 @@ border-radius: 50%;
 }
 
 .contact__form h3 {
-  color: #ffffff;
+  color: #000000;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
@@ -1735,10 +1736,10 @@ border-radius: 50%;
 .contact__form form input {
   height: 50px;
   width: 100%;
-  border: 1px solid rgba(225, 225, 225, 0.5);
+  border: 1px solid rgba(51, 46, 46, 0.987);
   background: transparent;
   font-size: 16px;
-  color: #adadad;
+  color: #1a1717;
   padding-left: 20px;
   font-weight: 300;
   margin-right: 20px;
@@ -1748,18 +1749,18 @@ border-radius: 50%;
   transition: all, 0.3s;
 }
 .contact__form form input:placeholder {
-  color: #adadad;
+  color: #000000;
 }
 .contact__form form input:focus {
-  border-color: #e1e1e1;
+  border-color:rgba(51, 46, 46, 0.987);
 }
 .contact__form form textarea {
   height: 110px;
   width: 100%;
-  border: 1px solid rgba(225, 225, 225, 0.5);
+  border: 1px solid rgba(51, 46, 46, 0.987);
   background: transparent;
   font-size: 16px;
-  color: #adadad;
+  color: #000000;
   padding-top: 12px;
   padding-left: 20px;
   font-weight: 300;
@@ -1770,10 +1771,10 @@ border-radius: 50%;
   transition: all, 0.3s;
 }
 .contact__form form textarea:placeholder {
-  color: #adadad;
+  color: #3d3939;
 }
 .contact__form form textarea:focus {
-  border-color: #e1e1e1;
+  border-color: #4286dff5;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
